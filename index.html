@@ -502,6 +502,13 @@
             border: 1px solid rgba(0, 180, 216, 0.2);
         }
 
+        /* Special styling for highlight tags */
+        .project-tags span.tag-highlight {
+            background-color: rgba(157, 78, 221, 0.1);
+            color: var(--accent-purple);
+            border: 1px solid rgba(157, 78, 221, 0.2);
+        }
+
         .project-links {
             display: flex;
             gap: 1rem;
@@ -994,15 +1001,32 @@
         <div class="projects-container">
             <h2 class="section-title">Featured <span>Projects</span></h2>
             <div class="projects-grid">
+                <!-- Modified NotesRush Project -->
                 <div class="project-card">
                     <div class="project-cover">
                         <i class="fa-solid fa-laptop-code"></i>
                     </div>
                     <div class="project-info">
-                        <h3 class="project-title">NotesRush Portal</h3>
-                        <p class="project-desc">An educational web platform engineered explicitly to streamline resource sharing, notes distribution, and syllabus mapping for engineering undergraduates.</p>
+                        <h3 class="project-title">NotesRush Portal (In Progress)</h3>
+                        <p class="project-desc">The frontend architecture for an educational web platform engineered to streamline resource sharing and syllabus mapping for engineering undergraduates.</p>
                         <div class="project-tags">
-                            <span>HTML5</span><span>CSS3</span><span>JavaScript</span>
+                            <span>HTML5</span><span>CSS3</span><span>JavaScript</span><span class="tag-highlight">Frontend Only</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/mdshahbaaz17" target="_blank" class="project-link"><i class="fa-brands fa-github"></i> Source</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- New Internship Landing Page Project -->
+                <div class="project-card">
+                    <div class="project-cover">
+                        <i class="fa-solid fa-rocket"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Corporate Landing Page</h3>
+                        <p class="project-desc">A highly responsive and visually engaging landing page developed during my web development internship, focusing on clean layout structures and modular components.</p>
+                        <div class="project-tags">
+                            <span>HTML5</span><span>CSS3</span><span>UI/UX</span>
                         </div>
                         <div class="project-links">
                             <a href="https://github.com/mdshahbaaz17" target="_blank" class="project-link"><i class="fa-brands fa-github"></i> Source</a>
